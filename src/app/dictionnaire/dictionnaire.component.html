@@ -6,9 +6,11 @@
     </form>
     <div *ngIf="definitions.length > 0">
       <h2>Définition de "{{ mot }}" :</h2>
-      <ul>
-        <li *ngFor="let def of definitions">{{ def }}</li>
-      </ul>
+      <p-timeline [value]="events">
+        <ng-template pTemplate="content" let-event>
+          {{ event.status }}
+        </ng-template>
+      </p-timeline>
     </div>
   </div>
   
