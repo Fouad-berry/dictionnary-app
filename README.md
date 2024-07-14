@@ -1,6 +1,20 @@
-# DictionnaireFrancais
+# DictionnaireAnglais
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+
+## Description
+
+Ce projet est une application Angular qui permet de rechercher la définition d'un mot en anglais et de fournir son explication. Les définitions sont obtenues à partir de l'API DictionaryAPI. Les résultats sont affichés sous forme de timeline en utilisant PrimeNG.
+
+## Fonctionnalités
+
+- Recherche de définitions de mots en anglais.
+- Affichage des résultats sous forme de timeline.
+
+## Prérequis
+
+- Node.js (version 12 ou supérieure)
+- Angular CLI (version 12 ou supérieure)
 
 ## Development server
 
