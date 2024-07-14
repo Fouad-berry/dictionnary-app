@@ -1,16 +1,17 @@
 .container {
     max-width: 600px;
     margin: 50px auto;
-    text-align: center;
     font-family: Arial, sans-serif;
   }
   
   h1 {
     color: #333;
+    text-align: center;
   }
   
   form {
     margin-bottom: 20px;
+    text-align: center;
   }
   
   input[type="text"] {
@@ -34,10 +35,19 @@
     background-color: #0056b3;
   }
   
-  .definition {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border: 1px solid #dee2e6;
-    border-radius: 4px;
+  .results {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .timeline {
+    justify-self: start;
+  }
+  
+  
+  h2 {
+    margin-top: 0;
   }
   

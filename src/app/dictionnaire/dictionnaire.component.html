@@ -4,9 +4,8 @@
       <input type="text" [(ngModel)]="mot" name="mot" placeholder="Entrez un mot en Anglais" required>
       <button type="submit">Chercher</button>
     </form>
-    <div *ngIf="events.length > 0">
-      <h2>Définition de "{{ mot }}" :</h2>
-      <p-timeline [value]="events">
+    <div *ngIf="events.length > 0" class="results">
+      <p-timeline class="timeline" [value]="events">
         <ng-template pTemplate="content" let-event>
           {{ event.status }}
         </ng-template>
