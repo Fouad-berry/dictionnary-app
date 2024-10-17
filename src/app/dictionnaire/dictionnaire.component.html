@@ -2,7 +2,7 @@
     <h1>Welcome to my English Dictionnary(uk)</h1>
     <form (ngSubmit)="chercherMot()">
       <input type="text" [(ngModel)]="mot" name="mot" placeholder="Enter a world in english" required>
-      <button type="submit">Search</button>
+      <button type="submit">Search an world</button>
     </form>
     <div *ngIf="events.length > 0" class="results">
       <p-timeline class="timeline" [value]="events">
